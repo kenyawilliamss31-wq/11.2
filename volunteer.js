@@ -38,3 +38,14 @@ form.addEventListener("submit", function(event) {
         result.textContent = "Please select an interest.";
     }
 // TODO: Display helpful errors or an interest-specific response.
+ else if (interest === "outreach") {
+        result.textContent = "Thank you " + name + "! We appreciate your interest in Community Outreach.";
+    }
+    else if (interest === "events") {
+        result.textContent = "Thank you " + name + "! We would love your help with our community events.";
+    }
+    else if (interest === "mentoring") {
+        result.textContent = "Thank you " + name + "! We are excited about your interest in mentoring youth.";
+    }
+
+});
