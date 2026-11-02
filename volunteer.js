@@ -9,6 +9,9 @@ const nameInput = document.querySelector("#name");
 const result = document.querySelector("#result");
 
 // TODO: Select the form, email input, and interest dropdown.
+const form = document.querySelector("#volunteerForm");
+const emailInput = document.querySelector("#email");
+const interestInput = document.querySelector("#interest");
 
 // TODO: Add a submit event listener to the form.
 
