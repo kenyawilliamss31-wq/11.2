@@ -1,28 +1,80 @@
-        body { 
-            font-family: Arial, sans-serif;
-             max-width: 620px; 
-             margin: 40px auto; 
-             padding: 0 20px; 
-             line-height: 1.5; 
-            }
-        label { 
-            display: block; 
-            margin-top: 16px; 
-        }
-        input, select, button { 
-            font: inherit; 
-            padding: 8px;
-            margin-top: 4px; 
-        }
-        input, select { 
-            width: 100%;
-            box-sizing: border-box; 
-        }
-        button { 
-            margin-top: 20px;
-             cursor: pointer; 
-            }
-        #result { 
-            margin-top: 20px;
-            min-height: 1.5em; 
-        }
+body {
+    font-family: Arial, sans-serif;
+    max-width: 620px;
+    margin: 60px auto;
+    padding: 35px;
+    line-height: 1.5;
+    background-color: #fff0f5;
+    color: #59354a;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #d65a91;
+    font-size: 32px;
+}
+
+p {
+    text-align: center;
+    color: #4a0d86;
+}
+
+form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(214, 90, 145, 0.15);
+}
+
+label {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #a44b75;
+}
+
+input, select {
+    font: inherit;
+    padding: 12px;
+    margin-top: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #f6c8dc;
+    border-radius: 10px;
+    background-color: #fffafd;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #d65a91;
+    box-shadow: 0 0 6px #f6c8dc;
+}
+
+button {
+    font: inherit;
+    margin-top: 25px;
+    padding: 14px;
+    width: 100%;
+    background-color: #ef90e1;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #884e67;
+    transform: translateY(-2px);
+}
+
+#result {
+    margin-top: 20px;
+    min-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    color: #b34779;
+}
